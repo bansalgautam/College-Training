@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    background-color: black;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.header {
+    display: flex;
+    padding: 15px 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    background-color: rgb(177, 194, 209);
+}
+
+.logo img {
+    height: 80px;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 450px;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 4px 6px;
+}
+
+.nav-links ul li a:hover {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 3px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.donation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    background-color: rgb(177, 194, 209);
+}
+
+.donation p {
+    font-size: 18px;
+}
+
+.donation a {
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    border-radius: 3px;
+    border: 2px solid black;
+    padding: 2px 4px;
+    font-size: 18px;
+}
+
+.donation a:hover {
+    background-color: black;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    margin: 50px auto 75px auto;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgb(177, 194, 209);
+    box-shadow: 10px 15px;
+}
+
+.heading, .info {
+    padding: 10px;
+}
+
+.heading h1 {
+    font-size: 48px;
+}
+
+.info p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.latest-books {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1230px;
+    margin: 0 auto 50px auto;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 5px 5px;
+}
+.latest-books h2 {
+    margin-bottom: 10px;
+}
+
+.books-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book-section {
+    margin: 30px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    padding: 0px;
+}
+
+.book-section a img {
+    height: 250px;
+    width: 180px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+.book-section p {
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+    width: 150px;
+}
+
+.apply {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 50px 0;
+    background-color: rgb(177, 194, 209);
+}
+
+.apply h3 {
+    width: 500px;
+}
+
+label {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin: 50px auto 0 auto;
+}
+
+#resume {
+    width: 210px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+form a {
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    padding: 3px 8px;
+    font-size: 20px;
+}
+
+form a:hover {
+    background-color: black;
+}
+
+input {
+    width: 500px;
+    font-size: 20px;
+    padding: 2px 10px;
+}
+
+select {
+    font-size: 20px;
+    padding: 2px 10px;
+}
+
+.about {
+    width: 600px;
+    margin: 80px auto 30px auto;
+}
+
+.about p, .about address {
+    font-size: 28px;
+    text-align: center;
+}
+
+table {
+    width: 500px;
+    margin: 30px auto;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+table caption {
+    font-weight: bolder;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 3px 10px;
+}
+
+.footer {
+    background-color: rgb(177, 194, 209);
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+}
