@@ -69,6 +69,8 @@ body {
     border: 2px solid black;
     border-radius: 10px;
     box-shadow: 2px 3px;
+    background-color: white;
+    opacity: 0.7;
 }
 
 .socials {
@@ -234,7 +236,7 @@ input {
 
 select {
     font-size: 20px;
-    padding: 2px 10px;
+    padding: 2px 10px ;
 }
 
 .about {
